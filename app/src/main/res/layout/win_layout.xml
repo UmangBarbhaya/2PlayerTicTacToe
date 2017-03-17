@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgwin">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="@color/gamecol"
+        android:textSize="@dimen/congo"
+        android:layout_marginLeft="20dp"
+        android:text="CONGRATULATIONS"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="264dp"
+        android:text="PLAYER1 WON!!!"
+        android:textSize="@dimen/congo"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/gamecol"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Play Again"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/back1"
+        android:layout_gravity="right" />
+
+</LinearLayout>
